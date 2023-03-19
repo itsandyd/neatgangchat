@@ -4,10 +4,6 @@ interface SiteConfig {
   name: string
   description: string
   mainNav: NavItem[]
-  links: {
-    twitter: string
-    github: string
-  }
 }
 
 export const siteConfig: SiteConfig = {
