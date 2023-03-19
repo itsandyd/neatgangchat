@@ -59,6 +59,11 @@ const handler = async (req: Request): Promise<Response> => {
   )
 
   const embeddingData = await embeddingResponse.json()
+
+  if (!embeddingData.data) {
+    return new Response("Error: Embedding data not found", { status: 400 })
+  }
+
   const [{ embedding }] = embeddingData.data
   console.log("embedding: ", embedding)
 
