@@ -11,8 +11,8 @@ interface SiteConfig {
 }
 
 export const siteConfig: SiteConfig = {
-  name: "Mercury",
-  description: "AI Wizard Creator",
+  name: "Neat Chat",
+  description: "AI Chat for World of Warcraft Gamers",
   mainNav: [
     {
       title: "Home",
@@ -31,8 +31,4 @@ export const siteConfig: SiteConfig = {
       href: "/learn",
     },
   ],
-  links: {
-    twitter: "https://twitter.com/nolansym",
-    github: "https://github.com/Jordan-Gilliam/mercury",
-  },
 }

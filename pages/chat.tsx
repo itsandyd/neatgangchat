@@ -18,15 +18,7 @@ function ChatPage() {
               toastOptions={{ duration: 2000 }}
             />
             <Chat apiPath="chat" />
-            <div className="mt-8 flex flex-col items-center justify-center ">
-              <Image
-                className=" rotate-[180deg]"
-                height={150}
-                width={250}
-                src="/logo-down-pink.svg"
-                alt="logo"
-              />
-            </div>
+            <div className="mt-8 flex flex-col items-center justify-center "></div>
           </div>
         </main>
       </div>

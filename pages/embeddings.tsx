@@ -29,14 +29,6 @@ const Embeddings: NextPage = () => {
   return (
     <Layout>
       <div className="m-auto mt-6 flex max-w-xl flex-col items-center pb-12 text-center">
-        <Image
-          // className=" rotate-[60deg]"
-          className=""
-          height={250}
-          width={250}
-          src="/logo-down-violet.svg"
-          alt="logo"
-        />
         <h1 className="my-5 w-full text-2xl font-bold sm:text-4xl ">
           Generate embeddings
         </h1>

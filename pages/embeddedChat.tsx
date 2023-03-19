@@ -12,15 +12,7 @@ function EmbeddedChatPage() {
           </h1>
           <div className="mx-auto w-full max-w-6xl">
             <Chat apiPath="docs" />
-            <div className="mt-8 flex flex-col items-center justify-center ">
-              <Image
-                className=" rotate-[180deg]"
-                height={150}
-                width={250}
-                src="/logo-down-pink.svg"
-                alt="logo"
-              />
-            </div>
+            <div className="mt-8 flex flex-col items-center justify-center "></div>
           </div>
         </main>
       </div>

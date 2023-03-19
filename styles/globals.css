@@ -2,7 +2,7 @@
 @tailwind components;
 @tailwind utilities;
 
-html,
+/* html,
 body,
 #root {
   height: 100%;
@@ -48,4 +48,4 @@ body,
       var(--pink2),
       transparent
     );
-}
+} */

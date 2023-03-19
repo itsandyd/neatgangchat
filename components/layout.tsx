@@ -1,4 +1,4 @@
-import { FancyBackground } from "@/components/FancyBackgrounnd"
+// import { FancyBackground } from "@/components/FancyBackgrounnd"
 import { SiteHeader } from "@/components/site-header"
 
 interface LayoutProps {

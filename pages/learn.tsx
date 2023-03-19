@@ -184,15 +184,7 @@ const DocsPage: NextPage<Props> = ({ children, meta: pageMeta }: Props) => {
                 </motion.div>
               </AnimatePresence>
             </ResizablePanel>
-            <div className="mt-8 flex items-center justify-center">
-              <Image
-                className=" rotate-[180deg]"
-                height={150}
-                width={250}
-                src="/logo-down-pink.svg"
-                alt="logo"
-              />
-            </div>
+            <div className="mt-8 flex items-center justify-center"></div>
           </div>
         </main>
       </div>

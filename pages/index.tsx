@@ -20,31 +20,33 @@ export default function IndexPage() {
   return (
     <Layout>
       <Head>
-        <title>Mercury</title>
+        <title>Neat Chat</title>
         <meta
           name="description"
-          content="Unlock the secrets of any website with Mercury, the alchemical tool that transmutes information into understanding."
+          content="Get World of Warcraft information and tips from Neat Chat, the AI-powered chatbot."
         />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <section className="container grid items-center gap-6 pt-6 pb-8 md:py-10">
         <div className="flex max-w-[980px] flex-col items-start gap-2">
-          <Image
-            className=" rotate-[36deg] hover:rotate-180"
+          {/* <Image
+            // className=" rotate-[36deg] hover:rotate-180"
             height={250}
             width={250}
-            src="/logo-up.svg"
+            src="/neat.svg"
             alt="logo"
-          />
+          /> */}
           <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
-            Mercury <br className="inline" />
+            <br className="inline" />
             <span className="text-xl md:text-5xl lg:text-6xl">
-              Unlock the secrets of any website
+              Get World of Warcraft information and tips from an AI-powered
+              chatbot.
             </span>
           </h1>
           <p className="max-w-[700px] text-lg text-zinc-700 dark:text-zinc-400 sm:text-xl">
-            transmute information into understanding.
+            Neat Chat is your go-to source for information about World of
+            Warcraft. Ask it anything and get instant answers!
           </p>
         </div>
         <p className="hidden text-2xl text-zinc-500 dark:text-zinc-400 md:block">
@@ -53,21 +55,6 @@ export default function IndexPage() {
           </kbd>
         </p>
       </section>
-      <div className="ml-20 flex items-center justify-center md:gap-20">
-        <Icons.mercury className="     fill-[#FEE9DF] dark:fill-mauve-1 dark:stroke-sky-9" />
-        <Icons.mercury className=" fill-mauve-12  stroke-violet-12 dark:fill-transparent" />
-        <Icons.mercury className="  fill-[#e1fbf4] dark:fill-mauve-1 dark:stroke-orange-9" />
-      </div>
-      {/* <Icons.mercury className="absolute left-80  stroke-plum-6" />
-        <Icons.mercury className="absolute right-80  stroke-plum-6" />
-        <Icons.mercury className="absolute right-20  stroke-plum-6" /> */}
-      {/* <Image
-        className=" absolute right-20  fill-orange-400 hover:rotate-180"
-        height={100}
-        width={100}
-        src="/mercury.svg"
-        alt="logo"
-      /> */}
     </Layout>
   )
 }
