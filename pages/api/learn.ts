@@ -1,8 +1,9 @@
-import { OpenAIStream, OpenAIStreamPayload } from "@/lib/OpenAIStream"
-import { supabaseClient } from "@/lib/embeddings-supabase"
 // import { oneLine, stripIndent } from "common-tags";
 import GPT3Tokenizer from "gpt3-tokenizer"
 import { Configuration, OpenAIApi } from "openai"
+
+import { OpenAIStream, OpenAIStreamPayload } from "@/lib/OpenAIStream"
+import { supabaseClient } from "@/lib/embeddings-supabase"
 
 const configuration = new Configuration({ apiKey: process.env.OPENAI_API_KEY })
 
