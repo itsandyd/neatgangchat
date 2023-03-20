@@ -121,7 +121,7 @@ export default function IndexPage() {
                 <h3 className="font-semibold">Time-Saving Resource:</h3>
                 <p>
                   Maximize your gameplay by quickly finding the information you
-                  need. With Neat Chat, you'll spend less time researching and
+                  need. With Neat Chat, youll spend less time researching and
                   more time enjoying the World of Warcraft!
                 </p>
               </div>
