@@ -40,13 +40,15 @@ export default function IndexPage() {
           <h1 className="text-2xl font-extrabold leading-tight tracking-tighter sm:text-3xl md:text-5xl lg:text-6xl">
             <br className="inline" />
             <span className="text-xl md:text-5xl lg:text-6xl">
-              Get World of Warcraft information and tips from an AI-powered
-              chatbot.
+              Welcome to Neat Chat: Your Ultimate AI-Powered WoW Companion!
             </span>
           </h1>
           <p className="max-w-[700px] text-lg text-zinc-700 dark:text-zinc-400 sm:text-xl">
-            Neat Chat is your go-to source for information about World of
-            Warcraft. Ask it anything and get instant answers!
+            Unleash the power of Azeroth's finest AI-driven chatbot, designed
+            exclusively to help World of Warcraft players navigate the vast and
+            exciting world of Azeroth. Discover hidden secrets, expert
+            strategies, and personalized tips tailored to your unique playstyle.
+            With Neat Chat, you'll never quest alone again!
           </p>
         </div>
         <p className="hidden text-2xl text-zinc-500 dark:text-zinc-400 md:block">
@@ -54,6 +56,79 @@ export default function IndexPage() {
             <span className="text-5xl">⌘</span>K
           </kbd>
         </p>
+      </section>
+      <section>
+        <div className="container mx-auto py-6 px-4">
+          <h2 className="mb-4 text-2xl font-bold">Why Choose Neat Chat?</h2>
+          <ul className="list-none space-y-4">
+            <li className="flex items-start">
+              <span className="mr-2 text-2xl">🌟</span>
+              <div>
+                <h3 className="font-semibold">Instant WoW Wisdom:</h3>
+                <p>
+                  Get real-time answers to your questions about quests,
+                  characters, dungeons, raids, crafting, and more. Say goodbye
+                  to endless searching – your AI assistant is here to guide you!
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 text-2xl">🌟</span>
+              <div>
+                <h3 className="font-semibold">Elite Expertise:</h3>
+                <p>
+                  Level up your gameplay with cutting-edge strategies,
+                  class-specific insights, and valuable recommendations that
+                  suit your character and game preferences.
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 text-2xl">🌟</span>
+              <div>
+                <h3 className="font-semibold">Tailored Tips:</h3>
+                <p>
+                  Our advanced AI chatbot understands your playstyle, offering
+                  personalized advice and guidance to help you achieve your
+                  in-game goals and milestones.
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 text-2xl">🌟</span>
+              <div>
+                <h3 className="font-semibold">Dynamic Updates:</h3>
+                <p>
+                  Stay ahead of the curve with the latest World of Warcraft
+                  news, patch notes, and in-game events. Neat Chat keeps you
+                  informed and ready to conquer Azeroth!
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 text-2xl">🌟</span>
+              <div>
+                <h3 className="font-semibold">Community Connections:</h3>
+                <p>
+                  Connect with fellow adventurers, share your experiences, and
+                  forge new alliances in our thriving Neat Chat WoW community.
+                </p>
+              </div>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-2 text-2xl">🌟</span>
+              <div>
+                <h3 className="font-semibold">Time-Saving Resource:</h3>
+                <p>
+                  Maximize your gameplay by quickly finding the information you
+                  need. With Neat Chat, you'll spend less time researching and
+                  more time enjoying the World of Warcraft!
+                </p>
+              </div>
+            </li>
+          </ul>
+          <div className="mt-6"></div>
+        </div>
       </section>
     </Layout>
   )
