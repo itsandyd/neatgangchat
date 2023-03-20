@@ -44,11 +44,11 @@ export default function IndexPage() {
             </span>
           </h1>
           <p className="max-w-[700px] text-lg text-zinc-700 dark:text-zinc-400 sm:text-xl">
-            Unleash the power of Azeroth's finest AI-driven chatbot, designed
+            Unleash the power of Azeroths finest AI-driven chatbot, designed
             exclusively to help World of Warcraft players navigate the vast and
             exciting world of Azeroth. Discover hidden secrets, expert
             strategies, and personalized tips tailored to your unique playstyle.
-            With Neat Chat, you'll never quest alone again!
+            With Neat Chat, youll never quest alone again!
           </p>
         </div>
         <p className="hidden text-2xl text-zinc-500 dark:text-zinc-400 md:block">
