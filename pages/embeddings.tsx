@@ -40,7 +40,7 @@ const Embeddings: NextPage = () => {
         <form onSubmit={handleSubmit}>
           <Textarea
             className=" h-[250px] w-[300px] border-2  border-mauve-9 shadow-sm placeholder:text-mauve-11 md:w-[750px]"
-            placeholder="https://github.com/gannonh/gpt3.5-turbo-pgvector/blob/master/README.md, https://ui.shadcn.com/"
+            placeholder="https://www.wowhead.com/quest=3861/cluck, https://www.wowhead.com/quest=583/welcome-to-the-jungle"
             value={urls.join("\n")}
             onChange={(e) => setUrls(e.target.value.split("\n"))}
           />
