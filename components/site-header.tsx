@@ -17,7 +17,7 @@ export function SiteHeader() {
             rel="noopener noreferrer"
             className="rounded bg-pink-500 px-4 py-2 font-medium text-white hover:bg-pink-600 focus:bg-pink-600 focus:outline-none focus:ring-2 focus:ring-pink-500 focus:ring-offset-2"
           >
-            Join Our Discord
+            Discord
           </a>
         </div>
       </div>
