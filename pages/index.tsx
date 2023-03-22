@@ -48,7 +48,7 @@ export default function IndexPage() {
             exclusively to help World of Warcraft players navigate the vast and
             exciting world of Azeroth. Discover hidden secrets, expert
             strategies, and personalized tips tailored to your unique playstyle.
-            With Neat Chat, youll never quest alone again!
+            With Neat Chat, you will never quest alone again!
           </p>
         </div>
         <p className="hidden text-2xl text-zinc-500 dark:text-zinc-400 md:block">
@@ -121,7 +121,7 @@ export default function IndexPage() {
                 <h3 className="font-semibold">Time-Saving Resource:</h3>
                 <p>
                   Maximize your gameplay by quickly finding the information you
-                  need. With Neat Chat, youll spend less time researching and
+                  need. With Neat Chat, you will spend less time researching and
                   more time enjoying the World of Warcraft!
                 </p>
               </div>
